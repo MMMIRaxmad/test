@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMM:3-FINISH</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    
+
+
+
+</head>
+<body> 
+    <section>
+
+        <article class="modal">
+            <div class="modal__item">
+                <button class="x">x</button>
+                <span>Buyurmangiz qabul qilindi!</span>
+            </div>
+        </article>
+
+
+        <h1 class="text-">MMM PIZZA</h1>
+
+
+        <form id="form"> 
+            <h2 class="">Pizza order</h2>
+
+
+            <div class="contact">
+                <label>
+                    <input class="name" id="name" type="text" value="" placeholder="User name" required>
+                    <!-- <div class="name_error name_error--hidden relative">
+                        <p class="text-size-12 text-green-900 m-0 p-0">
+                          Ism to'liqroq yozing 
+                        </p>
+                    </div> -->
+                </label>
+                <label>
+                    <input class="number" id="number" type="number"  placeholder="Phone number" required>
+                    <!-- <div class="number_error number_error--hidden relative">
+                        <p class="text-size-12 text-green-900 m-0 p-0">
+                          Raqam to'liq bo'lishi kerak
+                        </p>
+                    </div> -->
+                </label>
+                <label>
+                    <input class="address" id="address" type="text" placeholder="Address" required>
+                    <!-- <div class="address_error address_error--hidden relative">
+                        <p class="text-size-12 text-green-900 m-0 p-0">
+                          Adres to'liq bo'lishi kerak
+                        </p>
+                    </div> -->
+                </label>
+            </div>
+
+
+            <div class="razmer">
+             <div class="razmer_1">
+                    <p>Dough thickness:</p>
+                    <select name="o" id="" class="select" required>
+                        <option></option>
+                        <option>Thin</option>
+                        <option>Medium</option>
+                        <option>Thick</option>
+                    </select>
+                </div>
+                <div class="razmer_size">
+                   <p>Size:</p>
+                   <label>
+                    <input class="non" type="radio" name="size" value="25" required  />
+                    <div class="custom-radio">
+                      <p>25cm</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input class="non" type="radio" name="size" value="30" />
+                    <div class="custom-radio">
+                      <p>30cm</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input class="non" type="radio" name="size" value="35" />
+                    <div class="custom-radio">
+                      <p>35cm</p>
+                    </div>
+                  </label>
+                </div>
+            </div>
+
+
+            <div class="onpizza">
+                <h5>On pizza:</h5>
+                <div>
+                    <label>
+                        <input type="checkbox"class="check_item"> Tomato
+                    </label>
+                    <label>
+                        <input type="checkbox"class="check_item"> Turkey meat
+                    </label>
+                    <label>
+                        <input type="checkbox"class="check_item"> Cucumber
+                    </label>
+                    <label>
+                        <input type="checkbox" class="check_item"> Olive
+                    </label>
+                    <label>
+                        <input type="checkbox"class="check_item"> Horse meat
+                    </label>
+                    <label>
+                        <input type="checkbox"class="check_item"> Mushroom
+                    </label>
+                </div>
+            </div>
+            <div class="add">
+                <h5>Add:</h5>
+                <div>
+                    <label>
+                        <input type="checkbox" class="tuzi">
+                        Pepper
+                    </label>
+                    <label>
+                        <input type="checkbox" class="tuzi">
+                        Sausages
+                    </label>
+                </div>
+            </div>
+            <button class="save">save</button>
+        </form>
+        <ul class="atvet">
+        </ul>
+
+
+
+
+    </section>
+
+
+
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
